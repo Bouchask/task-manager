@@ -18,6 +18,7 @@ services:
 
   db:
     image: mysql:8.0
+    platform: linux/amd64
     environment:
       MYSQL_DATABASE: tasks
       MYSQL_USER: task_user
